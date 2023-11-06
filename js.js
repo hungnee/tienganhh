@@ -128,7 +128,7 @@ function getRandomHistory() {
 }
 
 function playRandomHistory() {
-    var history = getRandomProduct();
+    var history = getRandomHistory();
     if (history !== null) {
         var audioPlayer = document.getElementById("historyPlayer");
         audioPlayer.src = history;
